@@ -22,4 +22,9 @@ class FfdCompetition extends Model
     {
         return $this->hasMany(FfdCompetition::class);
     }
+
+    public function getRouteKeyName()
+    {
+        return 'register_code';
+    }
 }

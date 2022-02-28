@@ -22,4 +22,9 @@ class BusinessCompetition extends Model
     {
         return $this->hasMany(BusinessMember::class);
     }
+
+    public function getRouteKeyName()
+    {
+        return 'register_code';
+    }
 }

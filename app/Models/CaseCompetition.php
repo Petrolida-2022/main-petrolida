@@ -22,4 +22,9 @@ class CaseCompetition extends Model
     {
         return $this->hasMany(CaseMember::class);
     }
+
+    public function getRouteKeyName()
+    {
+        return 'register_code';
+    }
 }

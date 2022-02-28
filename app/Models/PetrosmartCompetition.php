@@ -22,4 +22,9 @@ class PetrosmartCompetition extends Model
     {
         return $this->hasMany(PetrosmartMember::class);
     }
+
+    public function getRouteKeyName()
+    {
+        return 'register_code';
+    }
 }

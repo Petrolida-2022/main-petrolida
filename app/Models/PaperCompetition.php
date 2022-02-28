@@ -22,4 +22,9 @@ class PaperCompetition extends Model
     {
         return $this->hasMany(PaperMember::class);
     }
+
+    public function getRouteKeyName()
+    {
+        return 'register_code';
+    }
 }

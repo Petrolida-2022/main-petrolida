@@ -22,4 +22,9 @@ class StockCompetition extends Model
     {
         return $this->hasOne(StockMember::class);
     }
+
+    public function getRouteKeyName()
+    {
+        return 'register_code';
+    }
 }

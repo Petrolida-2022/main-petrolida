@@ -22,4 +22,9 @@ class OrdCompetition extends Model
     {
         return $this->hasMany(OrdMember::class);
     }
+
+    public function getRouteKeyName()
+    {
+        return 'register_code';
+    }
 }
