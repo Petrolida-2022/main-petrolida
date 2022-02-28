@@ -39,10 +39,10 @@
                 <hr>
                 <div class="row g-3">
                   <div class="col-12">
-                    <label for="username" class="form-label">Username</label>
+                    <label for="email" class="form-label">Email</label>
                     <div class="ms-auto position-relative">
                       <div class="position-absolute top-50 translate-middle-y search-icon px-3"><i class="bi bi-envelope-fill"></i></div>
-                      <input type="text" class="form-control radius-30 ps-5" name="username" id="username" placeholder="Username">
+                      <input type="email" class="form-control radius-30 ps-5" name="email" id="email" placeholder="Email">
                     </div>
                   </div>
                   <div class="col-12">

@@ -20,9 +20,8 @@ class DatabaseSeeder extends Seeder
         $user = new User;
 
         $user->name     = 'Petrolida Admin';
-        $user->username = 'admin.petrol';
-        $user->password = Hash::make('PassnyaApaan?');
-        $user->roles    = 'Admin';
+        $user->email    = 'admin@petrolida.com';
+        $user->password = Hash::make('G4tauP4ssnya');
 
         $user->save();
     }

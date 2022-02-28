@@ -13,31 +13,12 @@
   <!--navigation-->
   <ul class="metismenu" id="menu">
     
-    <li class="{{ Request::is('/admin') ? 'mm-active' : '' }}">
-      <a href="/admin">
+    <li class="{{ Request::is('/') ? 'mm-active' : '' }}">
+      <a href="/">
         <div class="parent-icon"><i class="bi bi-house-door"></i>
         </div>
         <div class="menu-title">Dashboard</div>
       </a>
-    </li>
-    <li class="{{ Request::is('admin/shortlink**') ? 'mm-active' : '' }}">
-      <a class="has-arrow" href="#"  aria-expanded="true">
-        <div class="parent-icon"><i class="bi bi-link-45deg"></i>
-        </div>
-        <div class="menu-title">Short Links</div>
-      </a>
-      <ul class="mm-collapse {{ Request::is('admin/shortlink**') ? 'mm-show' : '' }}" style="">
-        <li class="{{ Request::is('admin/shortlink') ? 'mm-active' : '' }}""> 
-          <a href="/admin/shortlink"><i class="bi bi-arrow-right-short"></i>
-            Semua Link
-          </a>
-        </li>
-        <li class="{{ Request::is('admin/shortlink/create') ? 'mm-active' : '' }}"> 
-          <a href="/admin/shortlink/create"><i class="bi bi-arrow-right-short"></i>
-            Buat Link
-          </a>
-        </li>
-      </ul>
     </li>
 
   </ul>

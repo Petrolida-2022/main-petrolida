@@ -7,7 +7,7 @@
     <div class="top-navbar">
       <ul class="navbar-nav align-items-center">
         <li class="nav-item d-none d-sm-block">
-          <a class="nav-link" href="/">Main Website</a>
+          <a class="nav-link" href="https://petrolida.com/" target="_blank">Main Website</a>
         </li>
         <li class="nav-item">
           <form action="/logout" method="POST">
